@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 //THIS I AM GOING TO PUSH IT TO DEV BRANCH
+//SECOND PUSH TO DEV
 @Controller
 public class Logincontroller {
 	@Autowired
@@ -15,6 +16,11 @@ public class Logincontroller {
 	
 	@RequestMapping("/we")
 	public String we()
+	{
+		return "Login";
+	}
+	@RequestMapping("/w")
+	public String w()
 	{
 		return "Login";
 	}
