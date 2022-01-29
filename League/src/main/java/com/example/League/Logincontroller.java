@@ -12,11 +12,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class Logincontroller {
 	@Autowired
 	LoginDao ld;
-	@RequestMapping("/")
-	public void hello()
-	{
-		
-	}
 	
 	@RequestMapping("/we")
 	public String we()
