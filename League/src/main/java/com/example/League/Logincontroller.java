@@ -19,6 +19,11 @@ public class Logincontroller {
 	{
 		return "Login";
 	}
+	@RequestMapping("/w")
+	public String w()
+	{
+		return "Login";
+	}
 	
 	
 	@ResponseBody
